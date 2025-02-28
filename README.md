@@ -28,7 +28,7 @@
 1.  Клонируйте репозиторий:
     
     ```bash
-    git remote add origin https://github.com/Rhae9ar/code_review_tool.git
+    git clone https://github.com/Rhae9ar/code_review_tool.git
     ```
     
 2.  Создайте виртуальное окружение:
