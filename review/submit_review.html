@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Submit Review</title>
+</head>
+<body>
+<h1>Submit Review for PR #{{ pull_request_id }}</h1>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

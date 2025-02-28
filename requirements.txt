@@ -1,0 +1,8 @@
+Django
+djangorestframework
+celery 
+redis
+requests-oauthlib
+django-celery-beat
+django-redis
+drf-spectacular

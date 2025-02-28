@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Review Dashboard</title>
+</head>
+<body>
+<h1>Pull Requests</h1>
+<ul>
+{% for pr in pull_requests %}
+<li>
+{{ pr.title }} - {{ pr.state }}
+<a href="{% url 'submit_review' pr.id %}">Submit Review</a>
+<a href="{% url 'submit_comment' pr.id %}">Submit Comment</a>
+</li>
+{% endfor %}
+</ul>
+</body>
+</html>

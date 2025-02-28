@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.pth
+.installed.cfg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written into a dist/ directory.
+#  Often these files are created temporarily.
+pyinstaller.build/
+dist/
+
+# dotenv environment variables file
+.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+media/
+static/
+venv/
+*.sqlite3
+*.sql
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Environments
+.env
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.sock
+
+# VS Code stuff
+.vscode/
+
+# PyCharm stuff
+.idea/
+
+# OS X stuff
+.DS_Store
