@@ -31,9 +31,6 @@ def submit_review(request, pull_request_id):
             form = CodeReviewForm()
     return render(request, 'review/submit_review.html', {'form': form, 'pull_request_id': pull_request_id})
 
-from .forms import CommentForm
-from .models import Comment
-
 def submit_comment(request, pull_request_id):
     if request.method == 'POST':
         form = CommentForm(request.POST)
